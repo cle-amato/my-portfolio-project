@@ -40,7 +40,7 @@ h1 {
 }
 
 .button-branding {
-  background-color: #6c63ff;
+  background-color: var(--branding-color);
   color: white;
   border: none;
   padding: 18px 30px;
@@ -50,7 +50,7 @@ h1 {
 
 .intro {
   text-align: center;
-  /*margin: 30px 0;*/
+  font-size: 18px;
 }
 
 .project-description {
@@ -91,9 +91,10 @@ h2 {
   }
   .project-description {
     margin: 15px 5px;
-    padding: 10px 0;
+    padding: 10px 3px;
     text-align: center;
     background-color: var(--background-color);
+    border-radius: 4px;
   }
 
   h2 {
