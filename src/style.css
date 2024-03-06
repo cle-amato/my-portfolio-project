@@ -48,6 +48,11 @@ h1 {
   border-radius: 4px;
 }
 
+.button-branding:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .intro {
   text-align: center;
   font-size: 18px;
@@ -82,6 +87,37 @@ h2 {
   border-radius: 4px;
 }
 
+.about-me-content {
+  padding: 50px 0 90px 0;
+}
+
+.about-me-content h1 {
+  font-family: var(--header-font);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  color: black;
+}
+
+.about-me-content h2 {
+  font-family: var(--default-font);
+  font-size: 18px;
+  color: #272142;
+}
+
+.about-me-content p {
+  line-height: 2;
+}
+
+.about-me-content a {
+  font-size: 16px;
+}
+
+.about-me-content img {
+  border-radius: 10px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -99,5 +135,18 @@ h2 {
 
   h2 {
     font-size: 40px;
+  }
+
+  .about-me-content {
+    text-align: center;
+  }
+
+  .about-me-content p {
+    line-height: 1.5;
+  }
+
+  .about-me-content img {
+    max-width: 300px;
+    margin: 30px 0;
   }
 }
