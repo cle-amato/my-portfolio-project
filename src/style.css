@@ -10,6 +10,35 @@ body {
   color: #272142;
 }
 
+nav {
+  padding: 15px;
+}
+
+.logo {
+  max-height: 36px;
+}
+
+nav ul {
+  margin-top: 10px;
+}
+
+nav li {
+  display: inline;
+  font-size: 16px;
+  margin: 10px 15px 10px 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav li a:hover,
+nav li a.active {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 .hero h1 {
   font-family: var(--header-font);
   font-optical-sizing: auto;
@@ -136,8 +165,21 @@ h2 {
 }
 
 @media (max-width: 960px) {
-  h1 {
-    font-size: 44px;
+  .logo {
+    max-height: 25px;
+    margin-top: 10px;
+  }
+
+  nav {
+    padding: 8px;
+  }
+
+  nav li {
+    font-size: 13px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
   }
 
   .intro {
