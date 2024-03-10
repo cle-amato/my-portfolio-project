@@ -22,8 +22,37 @@
     ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>About me</title>
+    <meta
+      name="description"
+      content="Find out more about Clementina Amato, front-end developer."
+    />
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <a href="/"
+        ><img
+          src="images/logo.png.png"
+          alt="shecodes logo"
+          class="logo d-none d-md-block"
+          title="Homepage"
+        />
+        <img
+          src="images/logo-small.png"
+          alt="shecodes logo"
+          class="logo d-sm-block d-md-none"
+        />
+      </a>
+      <ul>
+        <li><a href="/" title="Homepage">Home</a></li>
+        <li>
+          <a href="/about.html" class="active" title="About Clementina"
+            >About</a
+          >
+        </li>
+        <li><a href="/work.html" title="Clementina's work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Clementina">Contact</a></li>
+      </ul>
+    </nav>
     <div class="container content-container">
       <div class="row">
         <div class="col-lg-6">
@@ -36,16 +65,65 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="" class="button-branding">See my projects</a>
+          <a href="/work.html" class="button-branding">See my projects</a>
         </div>
         <div class="col-lg-6">
           <img
             src="images/clementina-foto-cropped.png"
-            class="img-fluid"
-            alt=""
+            class="img-fluid profile-picture"
+            alt="Clementina Amato picture"
           />
         </div>
       </div>
+      <footer>
+        <div
+          class="work-enquiry-banner justify-content-between d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Enquiry</h3>
+            <p class="text-secondary">Let's work together!</p>
+          </div>
+          <div class="mt-4">
+            <a href="emailto:cle.amato@gmail.com" class="button-branding"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="email-link-footer m-4">
+          <a href="emailto:cle.amato@gmail.com">cle.amato@gmail.com</a>
+        </div>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/clementina-amato/"
+            target="_blank"
+            title="Linkedin profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/cle-amato"
+            target="_blank"
+            title="Github profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="mt-5 text-secondary text-center">
+          ✌ This project was coded by Clementina Amato and is
+          <a
+            href="https://github.com/cle-amato/my-portfolio-project"
+            target="_blank"
+            >open sourced.</a
+          >
+        </p>
+      </footer>
     </div>
+    <script
+      src="https://kit.fontawesome.com/4bad8d66fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -119,7 +119,6 @@ h2 {
 
 .content-container {
   padding: 50px 50px 90px 50px;
-  margin-left: 20px;
 }
 
 .content-container h1 {
@@ -165,6 +164,10 @@ h2 {
   font-size: 14px;
 }
 
+.profile-picture {
+  max-height: 300px;
+}
+
 footer {
   text-align: center;
 }
@@ -175,7 +178,7 @@ footer .work-enquiry-banner {
   border-radius: 15px;
 }
 
-footer h4 {
+footer h3 {
   font-family: var(--header-font);
   font-weight: bold;
   font-size: 48px;
@@ -219,10 +222,6 @@ footer .social-links a:hover {
 
   nav {
     padding: 8px;
-  }
-
-  nav li {
-    font-size: 13px;
   }
 
   .hero h1 {

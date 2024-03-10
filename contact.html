@@ -22,13 +22,46 @@
     ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Contact page</title>
+    <meta
+      name="description"
+      content="Contact Clementina Amato, front-end developer. Send an email, add her on Linkedin and check out her Github account."
+    />
   </head>
   <body>
+    <nav class="d-flex justify-content-between">
+      <a href="/"
+        ><img
+          src="images/logo.png.png"
+          alt="shecodes logo"
+          class="logo d-none d-md-block"
+          title="Homepage"
+        />
+        <img
+          src="images/logo-small.png"
+          alt="shecodes logo"
+          class="logo d-sm-block d-md-none"
+        />
+      </a>
+      <ul>
+        <li><a href="/" title="Homepage">Home</a></li>
+        <li>
+          <a href="/about.html" title="About Clementina">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Clementina's work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" class="active" title="Contact Clementina"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
     <div class="container content-container">
       <h1>Let's get in touch!</h1>
       <h2>Email</h2>
       <p>
-        <a href="mailto:cle.amato@gmail.com">cle.amato@gmail</a>
+        <a href="mailto:cle.amato@gmail.com">cle.amato@gmail.com</a>
       </p>
       <h2>Github</h2>
       <p>
@@ -42,6 +75,55 @@
           >@clementina-amato</a
         >
       </p>
+      <footer>
+        <div
+          class="work-enquiry-banner justify-content-between d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Enquiry</h3>
+            <p class="text-secondary">Let's work together!</p>
+          </div>
+          <div class="mt-4">
+            <a href="emailto:cle.amato@gmail.com" class="button-branding"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="email-link-footer m-4">
+          <a href="emailto:cle.amato@gmail.com">cle.amato@gmail.com</a>
+        </div>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/clementina-amato/"
+            target="_blank"
+            title="Linkedin profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/cle-amato"
+            target="_blank"
+            title="Github profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="mt-5 text-secondary text-center">
+          ✌ This project was coded by Clementina Amato and is
+          <a
+            href="https://github.com/cle-amato/my-portfolio-project"
+            target="_blank"
+            >open sourced.</a
+          >
+        </p>
+      </footer>
     </div>
+    <script
+      src="https://kit.fontawesome.com/4bad8d66fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

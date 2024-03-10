@@ -21,21 +21,33 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Clementina Amato Portfolio</title>
+    <title>Front-end developer - Clementina Amato Portfolio</title>
+    <meta
+      name="description"
+      content="Clementina Amato is a web-developer based in London. Graduated on SheCodes, explore her project portfolio."
+    />
   </head>
   <body>
     <nav class="d-flex justify-content-between">
-      <img src="images/logo.png.png" alt="" class="logo d-none d-md-block" />
-      <img
-        src="images/logo-small.png"
-        alt=""
-        class="logo d-sm-block d-md-none"
-      />
+      <a href="/"
+        ><img
+          src="images/logo.png.png"
+          alt="shecodes logo"
+          class="logo d-none d-md-block"
+          title="Homepage"
+        />
+        <img
+          src="images/logo-small.png"
+          alt="shecodes logo"
+          class="logo d-sm-block d-md-none"
+        />
+      </a>
+
       <ul>
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/" class="active" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About Clementina">About</a></li>
+        <li><a href="/work.html" title="Clementina's work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Clementina">Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
@@ -44,7 +56,9 @@
 
       <h2 class="mb-5">Front-end developer, based in London</h2>
 
-      <button class="button-branding">Contact me</button>
+      <a href="/contact.html" class="button-branding" title="Contact me"
+        >Contact me</a
+      >
     </div>
 
     <p class="intro m-md-5">Here are some of my favourite projects</p>
@@ -58,11 +72,17 @@
               Weather app I built Weather app I builtWeather app I builtWeather
               app I builtWeather app I builtWeather app I built
             </p>
-            <a href="" class="btn grid-btn-branding">View Weather App</a>
+            <a href="work.html" class="btn grid-btn-branding"
+              >View Weather App</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app.png" class="img-fluid img-grid" alt="" />
+          <img
+            src="images/weather-app.png"
+            class="img-fluid img-grid"
+            alt="weather project preview"
+          />
         </div>
       </div>
 
@@ -71,7 +91,7 @@
           <img
             src="images/ai-generator.png"
             class="img-fluid img-grid"
-            alt=""
+            alt="AI generator project preview"
           />
         </div>
         <div class="col">
@@ -82,7 +102,7 @@
               including an AI integration My first porject including an AI
               integration My first porject including an AI integration
             </p>
-            <a href="" class="btn grid-btn-branding">Launch Project</a>
+            <a href="work.html" class="btn grid-btn-branding">Launch Project</a>
           </div>
         </div>
       </div>
@@ -95,28 +115,28 @@
               My very first HTML page. Bleblablabla bla blabla My very first
               HTML page.My very first HTML page.
             </p>
-            <a href="" class="btn grid-btn-branding">Visit Page</a>
+            <a href="work.html" class="btn grid-btn-branding">Visit Page</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/whippet-project.PNG"
             class="img-fluid img-grid"
-            alt=""
+            alt="Whippet page project preview"
           />
         </div>
       </div>
-      <footer class="m-5">
+      <footer>
         <div
           class="work-enquiry-banner justify-content-between d-none d-md-flex"
         >
           <div>
-            <h4>Work Enquiry</h4>
+            <h3>Work Enquiry</h3>
             <p class="text-secondary">Let's work together!</p>
           </div>
           <div class="mt-4">
             <a href="emailto:cle.amato@gmail.com" class="button-branding"
-              >Let's talk here</a
+              >Contact me</a
             >
           </div>
         </div>
@@ -127,12 +147,24 @@
           <a
             href="https://www.linkedin.com/in/clementina-amato/"
             target="_blank"
+            title="Linkedin profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://github.com/cle-amato" target="_blank"
+          <a
+            href="https://github.com/cle-amato"
+            target="_blank"
+            title="Github profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="mt-5 text-secondary text-center">
+          ✌ This project was coded by Clementina Amato and is
+          <a
+            href="https://github.com/cle-amato/my-portfolio-project"
+            target="_blank"
+            >open sourced.</a
+          >
+        </p>
       </footer>
     </div>
 
