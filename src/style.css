@@ -165,6 +165,52 @@ h2 {
   font-size: 14px;
 }
 
+footer {
+  text-align: center;
+}
+
+footer .work-enquiry-banner {
+  background-color: var(--background-color);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+footer h4 {
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 48px;
+}
+
+footer p {
+  text-align: left;
+}
+
+footer .email-link-footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+footer .email-link-footer a:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  color: var(--branding-color);
+  font-size: 25px;
+  margin: 20px;
+  padding: 20px 25px;
+  border-radius: 50%;
+  transition: 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   .logo {
     max-height: 25px;
