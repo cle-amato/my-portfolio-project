@@ -31,6 +31,7 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #272142;
+  transition: 100ms ease-in-out;
 }
 
 nav li a:hover,
