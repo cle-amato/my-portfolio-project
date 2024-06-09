@@ -76,6 +76,7 @@ nav li a.active {
   padding: 18px 30px;
   font-size: 18px;
   border-radius: 4px;
+  width: 35%;
 }
 
 .button-branding:hover {
@@ -148,6 +149,15 @@ h2 {
 
 .content-container img {
   border-radius: 10px;
+}
+
+.tool-icon {
+  max-width: 45px;
+  margin-bottom: 20px;
+}
+
+.tool-description {
+  font-size: 18px;
 }
 
 .project-grid-title {
@@ -263,7 +273,16 @@ footer .social-links a:hover {
     margin: 30px 0;
   }
 
+  .tool-icon {
+    max-width: 40px;
+    margin-bottom: 20px;
+  }
+
+  .tool-description {
+    font-size: 12px;
+  }
+
   .project-grid-title {
-    font-size: 20px;
+    font-size: 1px;
   }
 }
